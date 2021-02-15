@@ -2,7 +2,7 @@
 body {
     width: 100%;
     background-color: #fff;
-    margin: 0;
+    margin: 0; /* רוחב בין לבין */
 }
 
 .container {
@@ -107,7 +107,7 @@ nav.account a:hover {
 
 
 .logo {
-    flex-grow: 1;
+    flex-grow: 1; /* גודל התיבה שנמצא בה הפריט*/
 }
 
 .main-nav {
@@ -117,10 +117,10 @@ nav.account a:hover {
 .main-nav a {
     font-size: 1.125rem;
     color: #463f3a;
-    transition: .5s;
+    transition: .5s; /* זמן מעבר */
 }
 
-.main-nav a:after {
+.main-nav a:after { /* אחרי פעולה מתבצע הקוד הבר */
     content: " /";
     color: #f55856;
     margin: 0 25px;
@@ -145,9 +145,7 @@ a:last-child:after {
     line-height: .4;
 }
 
-.items {
-    color: #2a2b2c;
-}
+
 
 .box {
     display: inline-block;
@@ -218,7 +216,7 @@ body.scroll .sticky {
 }
 
 
-
+/* Animated Words and Logo */
 h2.one {
     -webkit-animation-duration: 1s;
     -webkit-animation-delay: .5s;
@@ -245,7 +243,7 @@ h2.four {
 
 img.red-logo-banner {
     -webkit-animation-duration: 1s;
-    -webkit-animation-delay: 2.5s;
+    -webkit-animation-delay: .5s;
 }
 
 
@@ -309,15 +307,6 @@ h3.border-heading:before {
     line-height: 30px;
 }
 
-.laces,
-.winter-boots,
-.casusal-puddle {
-    margin-right: 20px;
-}
-
-.running {
-    margin: 0 20px;
-}
 
 .red-button {
     text-align: center;
@@ -370,6 +359,7 @@ h3.border-heading:before {
 #arrivals {
     background-color: #fdfdfd;
     padding-bottom: 20px;
+    
 }
 
 .arrivals {
@@ -466,40 +456,6 @@ a.up-home>img:hover {
 }
 
 
-/*---SOCIAL MEDIA---*/
-
-#social-media {
-    background-color: #eeeeee;
-    padding: 15px 0;
-    line-height: .5;
-}
-
-.social {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.social-icons {
-    margin-left: 20px;
-    color: #463f3a;
-    transition: .5s;
-}
-
-a .fa {
-    font-size: 1.75rem;
-}
-
-.social-icons:hover {
-    color: #f55856;
-    transition: .3s;
-}
-
-
-.me:hover {
-    border-bottom: solid 1px #f55856;
-    transition: .3s;
-}
 
 
 /*---MOBILE STYLES---*/
@@ -748,4 +704,26 @@ p {
 }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
